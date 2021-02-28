@@ -25,6 +25,10 @@ npm install -g firebase-tools
 - THEORY: Component Styles
 - THEORY: Styles Structure
 - Styles Folder
+- Header Component
+```
+ng g c components/header
+```
 
 # init
 ```
