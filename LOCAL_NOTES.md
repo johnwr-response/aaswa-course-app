@@ -14,6 +14,18 @@ npm install -g firebase-tools
 - Firebase config
 - Adding Firebase in Module and Component
 
+## Section: Styles
+- THEORY: Styles
+- Tools
+  - SCSS: https://sass-lang.com/
+  - BEM: https://en.bem.info/
+  - Select Colors: https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+- THEORY: SCSS
+- THEORY: BEM
+- THEORY: Component Styles
+- THEORY: Styles Structure
+- Styles Folder
+
 # init
 ```
 ng v
