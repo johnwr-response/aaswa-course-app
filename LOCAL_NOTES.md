@@ -7,6 +7,7 @@
 - Firebase Control Panel
 - Firestore
 - Speed Optimization
+- Removing Default page
 ```
 npm install -g firebase-tools
 ```
