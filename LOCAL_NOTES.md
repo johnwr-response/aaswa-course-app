@@ -3,6 +3,12 @@
 - tsconfig
 - Environments
 - Packages
+- THEORY: Firebase
+- Firebase Control Panel
+```
+npm install -g firebase-tools
+```
+
 
 # init
 ```
