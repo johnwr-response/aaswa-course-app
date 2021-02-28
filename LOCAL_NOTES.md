@@ -1,6 +1,7 @@
 # Log
 ## Section: Settings
 - tsconfig
+- Environments
 
 # init
 ```
