@@ -1,3 +1,7 @@
+# Log
+## Section: Settings
+- tsconfig
+
 # init
 ```
 ng v
