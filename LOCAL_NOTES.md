@@ -5,6 +5,7 @@
 - Packages
 - THEORY: Firebase
 - Firebase Control Panel
+- Firestore
 ```
 npm install -g firebase-tools
 ```
