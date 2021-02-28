@@ -9,6 +9,7 @@
 npm install -g firebase-tools
 ```
 - Firebase config
+- Adding Firebase in Module and Component
 
 # init
 ```
