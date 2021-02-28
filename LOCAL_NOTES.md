@@ -2,6 +2,7 @@
 ## Section: Settings
 - tsconfig
 - Environments
+- Packages
 
 # init
 ```
