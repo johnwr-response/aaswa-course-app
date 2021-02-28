@@ -8,7 +8,7 @@
 ```
 npm install -g firebase-tools
 ```
-
+- Firebase config
 
 # init
 ```
