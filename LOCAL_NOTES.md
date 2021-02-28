@@ -29,6 +29,15 @@ npm install -g firebase-tools
 ```
 ng g c components/header
 ```
+- Demo Section
+```
+ng g m pages/demo --routing
+ng g c pages/demo
+ng g m pages/demo/pages/styles --routing
+ng g m pages/demo/pages/shared --routing
+ng g c pages/demo/pages/styles
+ng g c pages/demo/pages/shared
+```
 
 # init
 ```
