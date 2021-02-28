@@ -6,6 +6,7 @@
 - THEORY: Firebase
 - Firebase Control Panel
 - Firestore
+- Speed Optimization
 ```
 npm install -g firebase-tools
 ```
