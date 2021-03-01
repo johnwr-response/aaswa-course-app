@@ -38,6 +38,35 @@ ng g m pages/demo/pages/shared --routing
 ng g c pages/demo/pages/styles
 ng g c pages/demo/pages/shared
 ```
+- Ending
+
+## Section: Shared
+- THEORY: Review basic Angular Elements
+- THEORY: Division into Modules and Elements Grouping
+  - File Structure Best Practice
+    - module
+      - components
+      - services
+      - directives
+      - pipes
+      - guards
+      - resolvers
+      - models
+      - store
+      - pages
+      - shared
+- THEORY: When does a Component become a Module?
+- Theory
+- THEORY: Shared
+- Angular Material Folders
+- Shared Folders
+```
+ng g m shared/buttons
+ng g m shared/controls
+ng g m shared/indicators
+ng g m shared/layout
+ng g m shared/popups
+```
 
 # init
 ```
