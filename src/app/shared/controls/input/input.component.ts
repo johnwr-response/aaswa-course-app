@@ -46,10 +46,11 @@ export class InputComponent implements OnInit, ControlValueAccessor {
     this.value = value;
   }
 
-  onKeyup(value: string): void {
-    this.value = value;
-    this.propagateChange(value);
-    this.changed.emit(value);
+  onKeyup($event: Event): void {
+
+    this.value = (<HTMLInputElement>$event.target).value;
+    this.propagateChange((<HTMLInputElement>$event.target).value);
+    this.changed.emit((<HTMLInputElement>$event.target).value);
   }
 
   onBlur(): void {
