@@ -67,6 +67,12 @@ ng g m shared/indicators
 ng g m shared/layout
 ng g m shared/popups
 ```
+- THEORY: Moving Components to Shared
+- Button
+```
+ng g m shared/buttons/button
+ng g c shared/buttons/button
+```
 
 # init
 ```
