@@ -86,6 +86,11 @@ ng g m shared/controls/form-field
 ng g c shared/controls/form-field
 ```
 - Form-field Validators
+- Password
+```
+ng g m shared/controls/password
+ng g c shared/controls/password
+```
 
 # init
 ```
