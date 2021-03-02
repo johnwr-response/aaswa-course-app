@@ -5,6 +5,7 @@ import {FormFieldModule} from "@app/shared/controls/form-field/form-field.module
 import {PasswordModule} from "@app/shared/controls/password/password.module";
 import {SelectModule} from "@app/shared/controls/select/select.module";
 import {CheckboxesModule} from "@app/shared/controls/checkboxes/checkboxes.module";
+import {RadiosModule} from "@app/shared/controls/radios/radios.module";
 
 
 
@@ -16,14 +17,16 @@ import {CheckboxesModule} from "@app/shared/controls/checkboxes/checkboxes.modul
     FormFieldModule,
     PasswordModule,
     SelectModule,
-    CheckboxesModule
+    CheckboxesModule,
+    RadiosModule
   ],
   exports: [
     InputModule,
     FormFieldModule,
     PasswordModule,
     SelectModule,
-    CheckboxesModule
+    CheckboxesModule,
+    RadiosModule
   ]
 })
 export class ControlsModule { }

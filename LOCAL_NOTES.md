@@ -104,6 +104,11 @@ ng g c shared/controls/select
 ng g m shared/controls/checkboxes
 ng g c shared/controls/checkboxes
 ```
+- Radios
+```
+ng g m shared/controls/radios
+ng g c shared/controls/radios
+```
 
 # init
 ```
