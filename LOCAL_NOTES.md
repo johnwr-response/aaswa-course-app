@@ -79,6 +79,12 @@ ng g c shared/buttons/button
 ng g m shared/controls/input
 ng g c shared/controls/input
 ```
+THEORY: Validation
+Form-field
+```
+ng g m shared/controls/form-field
+ng g c shared/controls/form-field
+```
 
 # init
 ```
