@@ -93,6 +93,12 @@ ng g c shared/controls/password
 ```
 - THEORY: Frontend Models
 - Frontend Models
+- THEORY: Why use a Shared Component if you already have a Material Component?
+- Select
+```
+ng g m shared/controls/select
+ng g c shared/controls/select
+```
 
 # init
 ```

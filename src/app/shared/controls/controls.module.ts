@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {InputModule} from "@app/shared/controls/input/input.module";
 import {FormFieldModule} from "@app/shared/controls/form-field/form-field.module";
 import {PasswordModule} from "@app/shared/controls/password/password.module";
+import {SelectModule} from "@app/shared/controls/select/select.module";
 
 
 
@@ -12,12 +13,14 @@ import {PasswordModule} from "@app/shared/controls/password/password.module";
     CommonModule,
     InputModule,
     FormFieldModule,
-    PasswordModule
+    PasswordModule,
+    SelectModule
   ],
   exports: [
     InputModule,
     FormFieldModule,
-    PasswordModule
+    PasswordModule,
+    SelectModule
   ]
 })
 export class ControlsModule { }
