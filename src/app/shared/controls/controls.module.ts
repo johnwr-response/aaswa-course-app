@@ -4,6 +4,7 @@ import {InputModule} from "@app/shared/controls/input/input.module";
 import {FormFieldModule} from "@app/shared/controls/form-field/form-field.module";
 import {PasswordModule} from "@app/shared/controls/password/password.module";
 import {SelectModule} from "@app/shared/controls/select/select.module";
+import {CheckboxesModule} from "@app/shared/controls/checkboxes/checkboxes.module";
 
 
 
@@ -14,13 +15,15 @@ import {SelectModule} from "@app/shared/controls/select/select.module";
     InputModule,
     FormFieldModule,
     PasswordModule,
-    SelectModule
+    SelectModule,
+    CheckboxesModule
   ],
   exports: [
     InputModule,
     FormFieldModule,
     PasswordModule,
-    SelectModule
+    SelectModule,
+    CheckboxesModule
   ]
 })
 export class ControlsModule { }

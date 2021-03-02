@@ -99,6 +99,11 @@ ng g c shared/controls/password
 ng g m shared/controls/select
 ng g c shared/controls/select
 ```
+- Checkboxes
+```
+ng g m shared/controls/checkboxes
+ng g c shared/controls/checkboxes
+```
 
 # init
 ```
