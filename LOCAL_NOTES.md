@@ -73,6 +73,12 @@ ng g m shared/popups
 ng g m shared/buttons/button
 ng g c shared/buttons/button
 ```
+- THEORY: Form Controls
+- Input
+```
+ng g m shared/controls/input
+ng g c shared/controls/input
+```
 
 # init
 ```
