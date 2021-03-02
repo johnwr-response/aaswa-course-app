@@ -91,6 +91,8 @@ ng g c shared/controls/form-field
 ng g m shared/controls/password
 ng g c shared/controls/password
 ```
+- THEORY: Frontend Models
+- Frontend Models
 
 # init
 ```
