@@ -109,6 +109,11 @@ ng g c shared/controls/checkboxes
 ng g m shared/controls/radios
 ng g c shared/controls/radios
 ```
+- Date
+```
+ng g m shared/controls/date
+ng g c shared/controls/date
+```
 
 # init
 ```

@@ -6,6 +6,7 @@ import {PasswordModule} from "@app/shared/controls/password/password.module";
 import {SelectModule} from "@app/shared/controls/select/select.module";
 import {CheckboxesModule} from "@app/shared/controls/checkboxes/checkboxes.module";
 import {RadiosModule} from "@app/shared/controls/radios/radios.module";
+import {DateModule} from "@app/shared/controls/date/date.module";
 
 
 
@@ -18,7 +19,8 @@ import {RadiosModule} from "@app/shared/controls/radios/radios.module";
     PasswordModule,
     SelectModule,
     CheckboxesModule,
-    RadiosModule
+    RadiosModule,
+    DateModule
   ],
   exports: [
     InputModule,
@@ -26,7 +28,8 @@ import {RadiosModule} from "@app/shared/controls/radios/radios.module";
     PasswordModule,
     SelectModule,
     CheckboxesModule,
-    RadiosModule
+    RadiosModule,
+    DateModule
   ]
 })
 export class ControlsModule { }
