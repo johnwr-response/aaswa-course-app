@@ -129,6 +129,11 @@ ng g p shared/controls/autocomplete/pipes/highlight
 _**NOTE: Strict-mode is turned off for templates at this point**_
 - Form Buttons
 - Demo Actions Section
+- Spinner
+```
+ng g m shared/indicators/spinner
+ng g c shared/indicators/spinner
+```
 
 # init
 ```
