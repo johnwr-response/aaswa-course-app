@@ -156,6 +156,7 @@ ng g c services/notification/components/notification
 - THEORY: NgRx
 - NgRx DevTools
 - Basic Files
+- Models
 
 
 # init
