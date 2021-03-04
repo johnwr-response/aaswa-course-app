@@ -143,6 +143,14 @@ ng g c services/notification/components/notification
 ```
 - Ending
 
+## Section: Data Models
+- Preview
+- THEORY: Data Models
+- Deleting Test DB
+- Backend Models
+- Firebase Collections
+- Ending
+
 # init
 ```
 ng v
