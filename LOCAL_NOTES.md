@@ -134,6 +134,14 @@ _**NOTE: Strict-mode is turned off for templates at this point**_
 ng g m shared/indicators/spinner
 ng g c shared/indicators/spinner
 ```
+- THEORY: Services
+- Notification
+```
+ng g m services/notification
+ng g s services/notification/notification
+ng g c services/notification/components/notification
+```
+- Ending
 
 # init
 ```

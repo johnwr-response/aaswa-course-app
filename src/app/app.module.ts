@@ -13,6 +13,8 @@ import { HeaderComponent } from './components/header/header.component';
 import {environment} from "@src/environments/environment";
 import {MAT_DATE_FORMATS, MAT_DATE_LOCALE, MatDateFormats, MatNativeDateModule} from "@angular/material/core";
 
+import {NotificationModule} from './services';
+
 const APP_DATE_FORMATS: MatDateFormats = {
   parse: {
     dateInput: { day: 'numeric', month: 'numeric', year: 'numeric' },
@@ -38,7 +40,8 @@ const APP_DATE_FORMATS: MatDateFormats = {
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    NotificationModule.forRoot()
   ],
   providers: [
     { provide: MAT_DATE_LOCALE, useValue: 'no-NO' },
