@@ -1,6 +1,5 @@
 import {Component, EventEmitter, forwardRef, Input, OnInit, Output} from '@angular/core';
 import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms";
-import {MatSelectChange} from "@angular/material/select";
 import {MatDatepickerInputEvent} from "@angular/material/datepicker";
 
 type Value = number;
@@ -24,6 +23,7 @@ export class DateComponent implements OnInit, ControlValueAccessor {
   @Input() min: Date | undefined;
   @Input() max: Date | undefined;
   @Output() changed = new EventEmitter<Value>();
+  @Output() closed = new EventEmitter<void>();
 
   value!: number | null;
   isDisabled!: boolean;
@@ -66,6 +66,7 @@ export class DateComponent implements OnInit, ControlValueAccessor {
 
   onClosed(): void {
     this.propagateTouched();
+    this.closed.emit();
   }
 
-  }
+}

@@ -114,6 +114,11 @@ ng g c shared/controls/radios
 ng g m shared/controls/date
 ng g c shared/controls/date
 ```
+- DateRange
+```
+ng g m shared/controls/date-range
+ng g c shared/controls/date-range
+```
 
 # init
 ```
