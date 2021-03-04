@@ -151,6 +151,13 @@ ng g c services/notification/components/notification
 - Firebase Collections
 - Ending
 
+## Section: Dictionaries
+- Form Items
+- THEORY: NgRx
+- NgRx DevTools
+- Basic Files
+
+
 # init
 ```
 ng v
