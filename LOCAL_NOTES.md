@@ -119,6 +119,16 @@ ng g c shared/controls/date
 ng g m shared/controls/date-range
 ng g c shared/controls/date-range
 ```
+- Autocomplete Preview
+- Autocomplete
+```
+ng g m shared/controls/autocomplete
+ng g c shared/controls/autocomplete
+ng g p shared/controls/autocomplete/pipes/highlight
+```
+_**NOTE: Strict-mode is turned off for templates at this point**_
+
+
 
 # init
 ```
