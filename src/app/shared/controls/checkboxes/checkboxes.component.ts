@@ -46,7 +46,8 @@ export class CheckboxesComponent implements OnInit, ControlValueAccessor {
     this.value = value;
   }
 
-  onChanged(value: Value, checked: boolean): void {
+  onChanged(value: Value, $event: Event): void {
+    const checked = (<HTMLInputElement>$event.target).checked;
     const selected = this.getSelected(value, checked);
 
     this.value = selected;
