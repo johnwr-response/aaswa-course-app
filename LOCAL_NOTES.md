@@ -127,7 +127,7 @@ ng g c shared/controls/autocomplete
 ng g p shared/controls/autocomplete/pipes/highlight
 ```
 _**NOTE: Strict-mode is turned off for templates at this point**_
-
+- Form Buttons
 
 
 # init
