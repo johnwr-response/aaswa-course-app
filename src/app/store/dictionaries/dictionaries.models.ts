@@ -1,4 +1,4 @@
-import {Item, ControlItem} from '@app/models/frontend';
+import {Item, ControlItem, Icon} from '@app/models/frontend';
 export {Item, ControlItem} from '@app/models/frontend';
 
 export interface Dictionaries {
@@ -6,6 +6,7 @@ export interface Dictionaries {
   specializations: Dictionary;
   qualifications:  Dictionary;
   skills:  Dictionary;
+  countries: Dictionary;
 }
 
 export interface Dictionary {

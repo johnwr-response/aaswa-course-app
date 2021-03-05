@@ -166,6 +166,8 @@ ng g c services/notification/components/notification
 - Redux Tool
 - Flags
 - Assets
+- Countries
+- Ending
 
 
 # init
