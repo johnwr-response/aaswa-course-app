@@ -160,6 +160,7 @@ ng g c services/notification/components/notification
 - Actions and Reducer
 - THEORY: RxJS
 - Effects
+- Root Registration
 
 
 # init
