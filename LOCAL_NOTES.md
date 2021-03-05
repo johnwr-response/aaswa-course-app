@@ -175,6 +175,7 @@ ng g c services/notification/components/notification
 - User Store: Structure
 - User Store: Models
 - User Store: Actions
+- User Store: Reducer
 
 # init
 ```
