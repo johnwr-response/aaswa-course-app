@@ -162,6 +162,7 @@ ng g c services/notification/components/notification
 - Effects
 - Root Registration
 - Selectors
+- Store App Module
 
 
 # init
