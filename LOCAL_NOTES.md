@@ -161,6 +161,7 @@ ng g c services/notification/components/notification
 - THEORY: RxJS
 - Effects
 - Root Registration
+- Selectors
 
 
 # init
