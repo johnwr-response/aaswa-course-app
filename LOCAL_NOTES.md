@@ -169,6 +169,10 @@ ng g c services/notification/components/notification
 - Countries
 - Ending
 
+## Section: Authentication
+- Preview
+- Enable Firebase Auth
+- User Store: Structure
 
 # init
 ```
