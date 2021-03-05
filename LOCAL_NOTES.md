@@ -163,6 +163,9 @@ ng g c services/notification/components/notification
 - Root Registration
 - Selectors
 - Store App Module
+- Redux Tool
+- Flags
+- Assets
 
 
 # init
