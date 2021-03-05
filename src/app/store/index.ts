@@ -4,8 +4,8 @@ export interface State {
   dictionaries: any;
 }
 
-// @ts-ignore
 export const reducers: ActionReducerMap<State> = {
+  dictionaries: null
 };
 
 export const effects = [

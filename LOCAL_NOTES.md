@@ -157,6 +157,7 @@ ng g c services/notification/components/notification
 - NgRx DevTools
 - Basic Files
 - Models
+- Actions and Reducer
 
 
 # init
