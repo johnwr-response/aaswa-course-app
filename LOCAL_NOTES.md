@@ -173,6 +173,7 @@ ng g c services/notification/components/notification
 - Preview
 - Enable Firebase Auth
 - User Store: Structure
+- User Store: Models
 
 # init
 ```

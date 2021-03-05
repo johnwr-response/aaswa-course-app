@@ -2,6 +2,7 @@ import {Employee, Recruiter} from "@app/models/backend/user/roles";
 import firebase from "firebase";
 import firestore = firebase.firestore;
 
+export * from './roles';
 
 export interface User {
   uid: string;
