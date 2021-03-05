@@ -158,6 +158,8 @@ ng g c services/notification/components/notification
 - Basic Files
 - Models
 - Actions and Reducer
+- THEORY: RxJS
+- Effects
 
 
 # init
