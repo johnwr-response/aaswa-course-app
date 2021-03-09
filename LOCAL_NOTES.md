@@ -176,6 +176,7 @@ ng g c services/notification/components/notification
 - User Store: Models
 - User Store: Actions
 - User Store: Reducer
+- Effects: SignUp (Question to instructor remains unsolved)
 
 # init
 ```

@@ -9,6 +9,10 @@ export const environment = {
       storageBucket: 'YOUR storageBucket HERE',
       messagingSenderId: 'YOUR messagingSenderId HERE',
       appId: 'YOUR appId HERE',
+    },
+    actionCodeSettings: {
+      url: 'http://localhost:5200/demo',
+      handleCodeInApp: true
     }
   }
 };
