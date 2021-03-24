@@ -177,6 +177,7 @@ ng g c services/notification/components/notification
 - User Store: Actions
 - User Store: Reducer
 - Effects: SignUp
+- Effects: SignIn
 
 # init
 ```
